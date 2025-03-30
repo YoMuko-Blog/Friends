@@ -6,7 +6,7 @@ body:
     id: checks
     attributes:
       label: 检查清单
-      description: 请认真检查以下清单中的每一项，并在相符的项前打勾。
+      description: 请认真检查以下清单中的每一项，并在相符的项前打勾。（在满足所有条件后才会通过，不满足的项请不要勾选）
       options:
         - required: true
           label: 合法的、非营利性、无商业广告、无木马植入。
@@ -17,7 +17,7 @@ body:
         - required: false
           label: 博客已运行至少半年，非刚搭建好。
         - required: false
-          label: 与 **博主** 有至少 5 次有效互动（有内容的留言或者 issue 等）。
+          label: 先友后链：与 YoMuko 有至少**半年**的有效互动。
   - type: textarea
     id: config-file
     validations:
@@ -31,7 +31,6 @@ body:
             "title": "",
             "url": "",
             "avatar": "",
-            "screenshot": "",
             "description": ""
         }
         ```
@@ -40,7 +39,7 @@ body:
     attributes:
       label: 友链地址
       description: 请输入您的友链页面地址。
-      placeholder: "如: https://yoursite.com/friends/"
+      placeholder: "如: https://zako.uk/friends/"
     validations:
       required: true
   - type: input
@@ -48,4 +47,4 @@ body:
     attributes:
       label: 友链仓库（可选）
       description: 如果您使用 issue 作为友链源，请附上 issue 仓库链接。
-      placeholder: "如: https://github.com/yourname/friends/"
+      placeholder: "如: https://github.com/YoMuko-Blog/Friends/"
