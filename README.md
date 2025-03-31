@@ -13,3 +13,14 @@
 ## 如何添加
 
 按照 [Issue 模板](https://github.com/YoMuko-Blog/Friends/issues/new/choose) 内容填写并提交，审核通过3分钟后博客即可看到友链。
+
+## 本站友链信息
+
+```json
+{
+    "title": "YoMuko's Blog",
+    "url": "https://zako.uk",
+    "avatar": "https://cravatar.cn/avatar/02a2b50ffd762cbea4412fef72ae2ea2?size=512",
+    "description": "愿你如星璀璨，如风自由"
+}
+```
